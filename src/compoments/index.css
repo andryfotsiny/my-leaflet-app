@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.leaflet-container{
+    height: 92vh;
+    width: 100%;
+
+    margin-top:8px;
+}
+.mark{
+    background-color: #61dafb;
+    height: 10px;
+    width: 10px;
+    color: red;
+}
+/* CSS Code */
+@keyframes pulse {
+  0% {
+    r: 10;
+    opacity: 0.2;
+  }
+  50% {
+    r: 20;
+    opacity: 1;
+  }
+  100% {
+    r: 10;
+    opacity: 0.2;
+  }
+}
+
+.circle-marker {
+  fill: red;
+  stroke: none;
+  stroke-width: 1;
+  fill-opacity: 0.5;
+
+
+}
+
+.pulse-crime {
+  animation: pulse 0.05s infinite;
+}
+
+.pulse-grave {
+  animation: pulse 1s infinite;
+}
+.pulse-modere {
+  animation: pulse 2s infinite;
+}
+
+.pulse-mineur {
+  animation: pulse 3s infinite;
+}
+
+CSS
+/* Table container */
+.crime-list {
+  width: 100%; /* Ensure full width for responsiveness */
+  overflow-x: auto; /* Enable horizontal scrolling for long tables */
+}
+
+/* Table itself */
+table {
+  border-collapse: collapse; /* Remove default table spacing */
+  min-width: 100%; /* Set minimum width for responsiveness */
+}
+
+/* Table headers (<th>) */
+th {
+  padding: 0.75rem 1rem; /* Adjust padding as needed */
+  text-align: left; /* Align content left by default */
+  border: 1px solid #ddd; /* Add thin border */
+  background-color: #f1f5f8; /* Light background for headings */
+  font-weight: bold; /* Bold text for emphasis */
+}
+
+/* Table body rows (<tr>) */
+tr {
+  border: 1px solid #ddd; /* Add border to all rows */
+}
+
+/* Table data cells (<td>) */
+td {
+  padding: 0.5rem 1rem; /* Adjust padding as needed */
+  text-align: left; /* Align content left by default */
+  border: 1px solid #ddd; /* Add border to all cells */
+}
+
+/* Alternate row background (optional for readability) */
+tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+/* Hover effect on rows (optional) */
+tr:hover {
+  background-color: #eee;
+}
+
+
+
+.locate-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.locate-button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
