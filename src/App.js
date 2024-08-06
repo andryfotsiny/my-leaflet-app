@@ -3,7 +3,7 @@
 import React from 'react';
 import MapComponent from './compoments/MapComponent';
 import LineChartExample from './compoments/LineChartExample';
-import Navbar from "./compoments/Navbar";
+
 import ListCrim from "./compoments/ListCrim";
 
 
@@ -12,7 +12,7 @@ import 'tailwindcss/tailwind.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MapComponentAdmin from "./compoments/MapCompomentAdmin";
 import Login from "./compoments/Login";
-import Blog from "./compoments/Blog";
+
 
 const App = () => {
   return (

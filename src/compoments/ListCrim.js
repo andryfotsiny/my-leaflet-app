@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import TableThree from "./TableThree";
+
 import Navbar from "./Navbar";
 const ListCrim = () => {
   const [crimes, setCrimes] = useState([]);
